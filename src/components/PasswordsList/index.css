@@ -1,0 +1,68 @@
+.list-container {
+  list-style-type: none;
+  height: 80px;
+  width: 220px;
+  border: 1px solid #f8fafc;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+}
+
+.delete-icon {
+  height: 20px;
+  width: 20px;
+  background-color: transparent;
+}
+
+.star-img {
+  height: 20px;
+  width: 100px;
+  margin-top: 3px;
+}
+
+.initial-background {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  background-color: #10b981;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f8fafc;
+}
+
+.text {
+  margin: 0px;
+  color: #f8fafc;
+}
+
+.initial-background-yellow {
+  background-color: #f59e0b;
+}
+.initial-background-green {
+  background-color: #10b981;
+}
+.initial-background-orange {
+  background-color: #f97316;
+}
+.initial-background-light-green {
+  background-color: #14b8a6;
+}
+.initial-background-yellow-red {
+  background-color: #b91c1c;
+}
+.initial-background-blue {
+  background-color: #0ea5e9;
+}
+.initial-background-grey {
+  background-color: #64748b;
+}

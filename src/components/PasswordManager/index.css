@@ -1,0 +1,361 @@
+.app-container {
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  min-height: 100vh;
+  padding: 30px;
+}
+
+.app-logo {
+  height: 40px;
+  width: 140px;
+}
+
+@media screen and (min-width: 576px) {
+  .app-logo {
+    height: 60px;
+    width: 200px;
+  }
+}
+
+.password-manager-container {
+  background-color: #5763a5;
+  border-radius: 10px;
+  height: 80vh;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (orientation: landscape), (min-width: 768px) {
+  .password-manager-container {
+    flex-direction: row;
+    justify-content: space-around;
+    height: 40vh;
+  }
+}
+@media screen and (min-width: 768px) {
+  .password-manager-img-lg {
+    height: 350px;
+    width: 300px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .password-manager-img-lg {
+    height: 400px;
+    width: 400px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .password-manager-img-lg {
+    display: none;
+  }
+}
+.password-manager-img {
+  height: 180px;
+  width: 250px;
+}
+@media screen and (min-width: 576px) {
+  .password-manager-img {
+    height: 350px;
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .password-manager-img {
+    display: none;
+  }
+}
+
+.add-passwords-container {
+  background-color: #454f84;
+  height: 195px;
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 10px;
+  padding: 10px;
+}
+@media screen and (min-width: 576px) {
+  .add-passwords-container {
+    height: 250px;
+    width: 300px;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .add-passwords-container {
+    height: 300px;
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+}
+.heading {
+  font-size: 20px;
+  color: #f8fafc;
+  margin: 0px;
+  margin-top: 5px;
+}
+@media screen and (min-width: 576px) {
+  .heading {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+}
+.icon-input-container {
+  background-color: #f8fafc;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  height: 30px;
+  width: 210px;
+  border-radius: 10px;
+}
+@media screen and (min-width: 576px) {
+  .icon-input-container {
+    width: 280px;
+    height: 40px;
+  }
+}
+
+.image-line {
+  border-right: 1px solid #94a3b8;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+}
+@media screen and (min-width: 576px) {
+  .image-line {
+    height: 40px;
+    width: 40px;
+  }
+}
+.img-icon {
+  height: 20px;
+  width: 20px;
+}
+.input {
+  border-style: none;
+  font-size: 12px;
+  padding-left: 10px;
+  outline: none;
+}
+
+.add-btn {
+  background-color: #0b69ff;
+  border-style: none;
+  height: 20px;
+  width: 40px;
+  align-self: flex-end;
+  color: #ffffff;
+  font-size: 12px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+@media screen and (min-width: 992px) {
+  .icon-input-container {
+    width: 380px;
+    height: 50px;
+  }
+  .image-line {
+    height: 50px;
+  }
+  .input {
+    font-size: 15px;
+  }
+  .add-btn {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .add-btn {
+    height: 36px;
+    width: 60px;
+  }
+}
+
+.your-passwords-container {
+  background-color: #454f84;
+  height: 50vh;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .your-passwords-container {
+    height: 40vh;
+    margin-top: 20px;
+    padding: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 768px) {
+}
+.passwords-search-container {
+  display: flex;
+  align-items: center;
+}
+
+.password-heading {
+  color: #ffffff;
+  font-size: 12px;
+}
+@media screen and (min-width: 768px) {
+  .password-heading {
+    font-size: 18px;
+  }
+}
+.passwords {
+  display: flex;
+  align-items: center;
+}
+.passwords-count {
+  margin-left: 3px;
+  height: 16px;
+  width: 22px;
+  border: 1px solid #b6c3ca;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+@media screen and (min-width: 768px) {
+  .passwords-count {
+    margin-left: 10px;
+    height: 22px;
+    width: 28px;
+    text-align: center;
+  }
+}
+.search-input-container {
+  display: flex;
+  background-color: #ffffff;
+  height: 20px;
+  width: 150px;
+}
+.line {
+  border-right: 1px solid #94a3b8;
+}
+.search-icon {
+  height: 20px;
+  width: 20px;
+  padding-left: 3px;
+}
+
+.search-input {
+  width: 120px;
+  border: none;
+  padding-left: 10px;
+  outline: none;
+}
+.count {
+  margin: 0px;
+  text-align: center;
+  color: #f8fafc;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 576px) {
+  .passwords-search-container {
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 768px) {
+  .count {
+    font-size: 16px;
+  }
+  .search-input-container {
+    height: 25px;
+    margin-right: 22px;
+  }
+  .line {
+    height: 25px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .search-input {
+    width: 200px;
+  }
+}
+
+.hr {
+  border: 1px solid #b6c3ca;
+}
+
+.show-passwords-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.label-input {
+  outline: none;
+}
+.label {
+  color: #f8fafc;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .label-input {
+    height: 17px;
+    width: 30px;
+  }
+
+  .label {
+    font-size: 18px;
+  }
+}
+
+.no-passwords-img {
+  height: 80px;
+  width: 120px;
+}
+@media screen and (min-width: 576px) {
+  .no-passwords-img {
+    height: 200px;
+    width: 260px;
+  }
+}
+.no-passwords-container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-passwords-text {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 576px) {
+  .no-passwords-text {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .no-passwords-text {
+    font-size: 25px;
+  }
+}
+
+.password-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
